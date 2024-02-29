@@ -1,12 +1,12 @@
-/*******
- * Digits
- * Ian Kalotkin
- * 2/27/2024
- ******/
-public class Digits {
+import java.util.*;
+public class DigitsRevision {
     public static void main(String[] args) {
-        int number = 526;
-        
+        int number;
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the 3 digit number: ");
+        number = input.nextInt();
+        input.close();
+
         int hundreds = number / 100;
         int tens = (number / 10) % 10;
         int ones = number % 10;
