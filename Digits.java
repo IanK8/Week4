@@ -1,18 +1,11 @@
 /*******
- * Digits
+ * digits
  * Ian Kalotkin
  * 2/27/2024
  ******/
-public class Digits {
-    public static void main(String[] args) {
-        int number = 526;
+public class Digits
+{
+    public static void main(String[]args){
         
-        int hundreds = number / 100;
-        int tens = (number / 10) % 10;
-        int ones = number % 10;
-        
-        System.out.println("The hundreds-place digit is: " + hundreds);
-        System.out.println("The tens-place digit is: " + tens);
-        System.out.println("The one's digit is: " + ones);
     }
 }
