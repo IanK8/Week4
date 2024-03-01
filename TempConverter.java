@@ -7,7 +7,7 @@ public class TempConverter {
         System.out.print("Fahrenheit: ");
         F = input.nextDouble();
         //input.close();
-        double C = 5 / 9 * (F - 32);
+        double C = 5.0 / 9.0 * (F - 32);
         System.out.print("Your degree in Celsius is " + C);
 
     }
